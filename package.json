@@ -1,0 +1,30 @@
+{
+  "name": "book-worm",
+  "version": "1.0.0",
+  "description": "makes a collage of the books you have read this year!",
+  "main": "index.js",
+  "dependencies": {
+    "good": "^7.3.0",
+    "good-console": "^6.4.0",
+    "good-squeeze": "^5.0.2",
+    "handlebars": "^4.0.10",
+    "hapi": "^16.6.1",
+    "inert": "^4.2.1",
+    "install": "^0.10.1",
+    "mysql": "^2.14.1",
+    "nodemon": "^1.12.1",
+    "npm": "^5.4.2",
+    "psd": "^3.2.0",
+    "request": "^2.82.0",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha"
+  },
+  "author": "abhinav_rai",
+  "license": "ISC"
+}

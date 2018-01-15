@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Book Worm</title>
+    <meta name="description" content="gives you collage of the books you have read">
+    <meta name="author" content="abhinav rai, theflyingmantis">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/tooltip.css">. 
+  </head>
+  <body background="assets/img/background.gif">
+    <center>
+      <label for="txtBookSearch">Select book</label>
+      <input id="txtBookSearch" type="text" placeholder="Enter Name of book"
+                                            value="harry potter">
+    <a class="waves-effect waves-light btn" onclick="generatePoster()">Generate Poster</a>
+    <br>
+    <h2 class="container" >Books Read</h2>
+    </center>
+    <div class="container" id = "booksDisplay"> </div>   
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="src/home.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  </body>
+</html>
+
+
